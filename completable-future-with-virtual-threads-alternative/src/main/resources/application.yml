@@ -1,0 +1,7 @@
+server.port: 8085
+spring:
+  application:
+    name: completable-future-with-virtual-threads-alternative
+  threads:
+    virtual:
+      enabled: true
