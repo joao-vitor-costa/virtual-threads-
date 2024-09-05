@@ -1,0 +1,11 @@
+AB - Comandos básicos
+
+ab -n 10 -c 10 http://url:porta/path
+Onde:
+-n é o número de requisição
+-c é o numero de concorrência
+-s é o timeout máximo para cada requisição
+
+Para o teste de concorrencias abri o CMD na pasta bin e executar o comando abaixo:
+
+ab -n 60 -c 20 http://localhost:8080/block/3
